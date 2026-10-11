@@ -1,0 +1,26 @@
+# Secrets — never commit
+.env
+deploy.env.yaml
+.streamlit/secrets.toml
+.streamlit/
+*.pem
+*.key
+service-account*.json
+
+# Personal runbooks (contain project IDs / billing account) — see README instead
+commands-*.md
+
+# Data and outputs
+data/
+results/
+
+# Python / tooling
+.venv/
+venv/
+hrrenv/
+__pycache__/
+*.pyc
+.langgraph_api/
+.claude/
+.idea/
+.vscode/
