@@ -63,6 +63,8 @@ langgraph.json           LangGraph Studio config
 
 ## Setup
 
+Step-by-step copy-paste runbooks (GCP setup, guardrail, Cloud Run) are in [`commands/`](commands/README.md). A condensed version follows.
+
 Requirements: Python 3.11, a GCP project with Vertex AI enabled, and free-tier
 accounts for [Qdrant Cloud](https://cloud.qdrant.io), [Jina AI](https://jina.ai),
 [Groq](https://groq.com) and [LangSmith](https://smith.langchain.com).
